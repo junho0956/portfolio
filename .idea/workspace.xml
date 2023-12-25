@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32751f98-71b7-4aca-84b7-248161fca73c" name="Changes" comment="" />
+    <list default="true" id="32751f98-71b7-4aca-84b7-248161fca73c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/projects/fantasy/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/fantasy/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Project.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Project.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Record.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Record.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/type.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/images.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/images.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +36,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ZoPbJTHv8aLRDk4IUzrkYcE1lq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,12 +54,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
     "ts.external.directory.path": "/Users/gimjunho/Desktop/projects/portfolio/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/projects/fantasy" />
       <recent name="$PROJECT_DIR$/src/assets/images/icons" />
     </key>
   </component>
@@ -49,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703085529300</updated>
-      <workItem from="1703085531133" duration="5557000" />
+      <workItem from="1703085531133" duration="5646000" />
+      <workItem from="1703306202247" duration="29669000" />
     </task>
     <servers />
   </component>

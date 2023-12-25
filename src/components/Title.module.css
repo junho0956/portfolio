@@ -1,0 +1,38 @@
+.wrapper {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.subTitle {
+    color: rgb(90, 103, 216);
+    font-size: 0.75rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 4px;
+}
+
+.mark {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.mark:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 32px;
+    background-color: rgb(102, 126, 234);
+}
+
+.mark:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 1px;
+    height: 24px;
+    background-color: rgb(79, 209, 197);
+}

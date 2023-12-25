@@ -1,0 +1,78 @@
+@media (min-width: 1024px) {
+  .wrapper {
+    display: flex;
+    column-gap: 3rem;
+    min-height: 8rem;
+  }
+  .timeRecord {
+    position: relative;
+    padding-left: 1rem;
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+}
+@media (max-width: 1023px) {
+  .wrapper {
+    position: relative;
+  }
+  .wrapper + .wrapper {
+    margin-top: 2rem;
+  }
+  .timeRecord {
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+  }
+  .record {
+    padding-left: 1rem;
+  }
+}
+
+.timeRecord:before {
+  content: "";
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  width: 1px;
+  height: calc(100% + 2rem);
+  background-color: rgb(195, 218, 254);
+}
+
+.timeRecord:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: calc(-1 * 0.75rem / 2 + 1px);
+  border-radius: 50%;
+  border: 1px solid rgb(195, 218, 254);
+  background-color: rgb(235, 244, 255);
+  z-index: 1;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.timeRecord .time {
+  border: 1px solid rgb(79, 209, 197);
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  width: max-content;
+  padding: 0 0.5rem;
+  letter-spacing: 0.02rem;
+}
+
+.timeRecord .title {
+  padding-top: 0.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.timeRecord .subTitle {
+  font-size: 0.75rem;
+}
+
+.record {
+  word-break: keep-all;
+}
+
+.record + .record {
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(195, 218, 254);
+  padding: 1rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.serviceUrl {
+  color: rgb(90, 103, 216);
+  font-size: 0.75rem;
+}
+
+.wrapper > p:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.wrapper > p:last-of-type {
+  margin-bottom: 0.5rem;
+}
+
+.detailUrl {
+  color: rgb(90, 103, 216);
+  font-size: 0.8rem;
+}
+
+.wrapper:hover .serviceUrl,
+.wrapper:hover .detailUrl {
+  font-weight: 700;
+}

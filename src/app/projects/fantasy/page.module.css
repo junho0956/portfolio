@@ -1,0 +1,33 @@
+.section {
+  padding: 2.5rem 0;
+}
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.subDesc + .subDesc {
+  margin-top: 0.75rem;
+}
+.subDesc strong {
+  font-weight: 900;
+}
+.subDesc a {
+  color: rgb(90, 103, 216);
+}
+.subDesc ul li div {
+  margin: 0.5rem 0;
+}
+.subDesc ul li div:first-child {
+  font-weight: 600;
+}
+.subDesc ul li div:not(:first-child) {
+  padding-left: 1.5rem;
+}
+
+@media (min-width:1024px) {
+
+}
+@media (max-width:1023px) {
+
+}
