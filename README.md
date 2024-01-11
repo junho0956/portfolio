@@ -1,1 +1,1 @@
-[portfolio-rn8xv827s-junho0956.vercel.app](https://portfolio-rn8xv827s-junho0956.vercel.app/)
+[https://portfolio-gamma-two-50.vercel.app/](https://https://portfolio-gamma-two-50.vercel.app//)
