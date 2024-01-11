@@ -1,20 +1,20 @@
 .subDesc + .subDesc {
-  margin-top: 0.75rem;
+    margin-top: 0.75rem;
 }
 .subDesc strong {
-  font-weight: 900;
+    font-weight: 900;
 }
 .subDesc a {
-  color: var(--base-dark-color);
+    color: var(--base-dark-color);
 }
 .subDesc ul li div {
-  margin: 0.5rem 0;
+    margin: 0.5rem 0;
 }
 .subDesc ul li div:first-child {
-  font-weight: 600;
+    font-weight: 600;
 }
 .subDesc ul li div:not(:first-child) {
-  padding-left: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 @media (min-width:1024px) {

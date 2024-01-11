@@ -13,9 +13,9 @@ export default function Home() {
         <div className={styles.wrapper}>
           <Title subtitle="Frontend Developer" title="김준호" />
           <p className={styles.introduce}>
-            스타트업에서 2년차 프론트엔드 개발자로 일하고 있습니다.
-            <br/>
-            주로 React, Next.js 을 다루고 있습니다.
+            <Link href="https://main.projectwith.io" target="_blank">위플레이라이트</Link>에서 2년차 프론트엔드 개발자로 일하고 있습니다.<br/>
+            문제를 해결하고 비즈니스의 성장에 기여하는 일을 최우선으로 합니다.<br/>
+            주도적으로 업무를 진행할 수 있는 환경을 선호합니다.
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function Home() {
       <section className={bind(styles.projects, styles.section)}>
         <div className={styles.wrapper}>
           <Title subtitle="Projects" title="프로젝트" />
-          <div>
+          <div className={styles.projectList}>
             {projects.map(project => (
               <Project key={project.title} {...project} />
             ))}

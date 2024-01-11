@@ -1,5 +1,6 @@
 :root {
     --base-color: rgb(247, 250, 252);
+    --base-dark-color: rgb(90, 103, 216);
 }
 
 /* box-sizing 규칙을 명시합니다. */

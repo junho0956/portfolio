@@ -4,7 +4,7 @@
 }
 
 .subTitle {
-    color: rgb(90, 103, 216);
+    color: var(--base-dark-color);
     font-size: 0.75rem;
 }
 

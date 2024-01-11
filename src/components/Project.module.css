@@ -2,6 +2,10 @@
   border-radius: 0.5rem;
   border: 1px solid rgb(195, 218, 254);
   padding: 1rem;
+  margin-bottom: 10px;
+}
+.wrapper:hover {
+  border: 1px solid var(--base-dark-color);
 }
 
 .title {
@@ -9,7 +13,7 @@
 }
 
 .serviceUrl {
-  color: rgb(90, 103, 216);
+  color: var(--base-dark-color);
   font-size: 0.75rem;
 }
 
@@ -22,11 +26,6 @@
 }
 
 .detailUrl {
-  color: rgb(90, 103, 216);
+  color: var(--base-dark-color);
   font-size: 0.8rem;
-}
-
-.wrapper:hover .serviceUrl,
-.wrapper:hover .detailUrl {
-  font-weight: 700;
 }
